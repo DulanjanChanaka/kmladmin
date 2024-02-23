@@ -36,7 +36,7 @@ export default function ShopsDataTable() {
         const data = await response.json();
 
         // Add a unique ID to each row
-        const rowsWithId = data.map((row, index) => ({ id: index, ...row }));
+        const rowsWithId = data.map((row, index) => ({ id: index + 1, ...row }));
         setRows(rowsWithId);
       } catch (error) {
         console.error('Error fetching data:', error);

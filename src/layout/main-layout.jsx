@@ -6,7 +6,7 @@ const MainLayout = ()=> {
     return (
         <div class='w-full grid grid-cols-[10%_90%]'>
             <div><Navbar/></div>
-            <div class=' bg-blue-200 h-screen'><Outlet/></div>
+            <div class=' bg-blue-100 h-screen'><Outlet/></div>
             
 
         </div>

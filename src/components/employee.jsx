@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AddEmployee from "./addEmployee";
 import AddIcon from '@mui/icons-material/Add';
-import { collection, getDocs, onSnapshot, query } from "firebase/firestore";
+import { collection,  onSnapshot } from "firebase/firestore";
 import { db } from "../firebase/firebase";
 
 function Employee() {
